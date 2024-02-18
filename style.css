@@ -120,3 +120,51 @@ a {
 p.quote-author {
     font-weight: bold;
 }
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.signup-box {
+    background: #3882F6;
+    padding: 60px 100px;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-header {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.signup-subtext {
+    margin: 0;
+}
+
+.signup-box button {
+    width: 100px;
+    height: 30px;
+    background: #3882F6;
+    border-style: solid;
+    border-color: white;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+}
+
+.footer {
+    background: #1F2937;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
